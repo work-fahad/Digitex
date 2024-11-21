@@ -102,7 +102,7 @@ ul li a:hover {
 
 
 .main-part1 {
-    height: 45vh;
+    min-height: 45vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -126,5 +126,145 @@ ul li a:hover {
     border: 1px solid black;
     box-shadow:  2px 2px 6px rgba(216, 214, 214, 0.674);
     scale: 1.1;
-    transition: all 0.3s  ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.main-part2 {
+    background-color: #fff;
+    color: #222;
+    min-height: 100vh;
+}
+
+.part2-content {
+    padding: 5vw;
+    border: 2px solid gray;
+    text-align: center;
+}
+
+.part2-content h1 {
+    font-size: 1rem;
+}
+
+.part2-content p{
+    margin-top: .9vw;
+    font-size: 3rem;
+    font-weight: 600;
+    line-height: 2.9rem;
+}
+
+.part2-container {
+    display: grid;
+    padding: 5vw 16vw;
+    grid-template-columns: repeat(3, 1fr); 
+    justify-items: center;
+    gap: 30px;
+}
+
+.part1-card-1 {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid gray;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 10px 10px;
+}
+
+.part1-card-1 img {
+    width: 5vw;
+}
+
+
+.part2-card-2 {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid gray;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 20px 30px;
+}
+
+
+.part2-card-2 img {
+    width: 5vw;
+}
+
+.part3-card-3 {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid gray;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 20px 30px;
+}
+
+.part3-card-3 img {
+    width: 5vw;
+}
+
+.part4-card-4 {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid gray;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 20px 30px;
+}
+
+.part4-card-4 img {
+    width: 5vw;
+}
+
+.part5-card-5 {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid gray;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 20px 30px;
+}
+
+.part5-card-5 img {
+    width: 5vw;
+}
+
+.part6-card-6 {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid gray;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    padding: 20px 30px;
+}
+
+.part6-card-6 img {
+    width: 5vw;
+}
+
+#part2-gola {
+    width: 45px;
+    height: 45px;
+    color: #fff;
+    font-size: 20px;
+    background-color: #0f3ae4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.part2-para {
+    font-size: 10px;
 }
